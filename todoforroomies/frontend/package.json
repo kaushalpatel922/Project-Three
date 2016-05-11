@@ -4,8 +4,8 @@
   "description": "project 3: todo for roomies",
   "main": "index.js",
   "scripts": {
-    "production": "webpack -p",
-    "start": "webpack-dev-server --progress --inline --hot"
+    "build": "webpack --config ./webpack.prod.config.js --progress --colors",
+    "start": "node ./src/app.js"
   },
   "author": "",
   "license": "ISC",
